@@ -8,6 +8,9 @@ Encore
   .enableSingleRuntimeChunk()
   .addEntry('main', './src/index.ts')
   .enableVueLoader()
+  .enableSassLoader(options => {
+    options.implementation = require('sass');
+  })
   .enableTypeScriptLoader(options => {
     options.appendTsSuffixTo = [/\.vue$/];
   })

@@ -5,7 +5,11 @@
     "module": "es2015",
     "moduleResolution": "node"
   },
+  "files": [
+    "shims.d.ts"
+  ],
   "include": [
     "./src/**/*.ts",
+    "./test/**/*.ts"
   ]
 }

@@ -4,6 +4,15 @@ Webpack Encore + TypeScript + Vue.js
 How to use Webpack Encore with Vue.js and TypeScript
 
 ```
+# Install dependencies
 $ yarn
-$ yarn encore production
+
+# Build in dev mode
+$ yarn build:dev
+
+# Build in prod mode
+$ yarn build:prod
+
+# Run tests using Karma/Jasmine
+$ yarn test
 ```
